@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block head %}
+Create An Account
+{% endblock %}
+
+{% block body %}
+  <div id="root"></div>
+  <script type="text/jsx" src="/static/createAccount.jsx"></script>
+    Create Account page!
+    <p>Features needed on this page:</p>
+    <li>Needs a POST form to create new account</li>
+    <li>Password validation, maybe using React event handler "onChange", "onMouseOver", "onSubmit"</li>
+    <li>Create dropdown menu for selecting states</li>
+    <li>Form needs: fname, lname, email, password, address/state/zipcode</li>
+    <li>Nav bar at the top that should be there at everypage </li>
+    <li>Add "Already have an account, SIGN IN here."</li>
+{% endblock %}

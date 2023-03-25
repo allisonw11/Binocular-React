@@ -1,20 +1,29 @@
 {% extends 'base.html' %}
-{%block head%}
-  <script
-    crossorigin
-    src="https://unpkg.com/react@16/umd/react.development.js"
-  ></script>
-  <script
-    crossorigin
-    src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"
-  ></script>
-  <script
-    crossorigin
-    src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.js"
-  ></script>
+{% block head %}
+Binocular
 {% endblock %}
 
 {% block body %}
   <div id="root"></div>
   <script type="text/jsx" src="/static/homepage.jsx"></script>
+  <ul>
+    Welcome to Binocular Homepage!
+    <p>Features Coming Soon (AND display as nav bar at top):</p>
+    <li>Homepage</li>
+    <li>Create an Account</li>
+    <li>Log In</li>
+    <li>Profile</li>
+    <li>Reviews</li>
+    <li>Q & A</li>
+    <li>Log Out</li>
+
+    <p>Components on this page:</p>
+    <li>Slideshow/carousel</li>
+    <li>Search bar with several filters</li>
+    <li>Add header and footer</li>
+
+    <p>Things to consider:</p>
+    <li>Could add the 3 needed react components in base.html BUT it dont go well with google maps</li>
+    <li>TBD</li>
+</ul>
 {% endblock %}
