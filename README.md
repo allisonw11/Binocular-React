@@ -31,6 +31,6 @@ Table of Contents
 
 - TBC
 
-## Author
+## <a name="author"></a> Author
 
 Allison Wong is a software engineer in Boston, MA and the creator of Binocular-React Version. She is available to connect via GitHub and LinkedIn when visit her profile.
